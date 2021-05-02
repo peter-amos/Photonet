@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta content="IE=edge" http-equiv="X-UA-Compatible">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <meta content="description" name="description">
+  <meta name="google" content="notranslate" />
+  <meta content="photonet" name="author">
+
+  <!-- Disable tap highlight on IE -->
+  <meta name="msapplication-tap-highlight" content="no">
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="../assets/apple-icon-180x180.png">
+  <link href="../assets/favicon.ico" rel="icon">
+
+  <link href="" rel="stylesheet">
+
+
+  <title>Photonet</title>
+
+<link href="../main.550dcf66.css" rel="stylesheet">
+<link href="../file_upload.css" rel="stylesheet">
+</head>
+
+<body> <!-- Add photonet content of header -->
+<header>
+  <nav class="navbar navbar-default active">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="../index.html" title="">
+          <img src="../assets/images/mashup-icon.svg" class="navbar-logo-img" alt="">
+          Photonet
+        </a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="../index.html" title="">Home</a></li>
+          <li><a href="./aboutproject.html" title="">About Project</a></li>
+          <li><a href="all_projects.html" title="">All Submissions</a></li>
+          <li><a href="./copyright.html" title="">Copyright</a></li>
+          <li>
+            <p>
+              <a href="./components.html" class="btn btn-default navbar-btn" title="">Sign In</a>
+            </p>
+          </li>
+
+        </ul>
+      </div> 
+    </div>
+  </nav>
+</header>
+
+
+
+
+
+
+
+
+<div class="pictures_container">
+	<div class="row">
+	<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+    <fieldset class="form-group">
+    	<span style="margin-left:6 px;">
+        <a href="javascript:void(0)" onclick="$('#pro-image').click()" class="btn btn-primary">Upload New Image</a>
+        </span>
+        <input type="file" id="pro-image" name="pro-image" style="display: none;" class="form-control" multiple>
+    </fieldset>
+    <div class="preview-images-zone">
+        <div class="preview-image preview-show-1">
+            <div class="image-cancel" data-no="1">x</div>
+            <div class="image-zone"><img id="pro-img-1" src="https://img.purch.com/w/660/aHR0cDovL3d3dy5saXZlc2NpZW5jZS5jb20vaW1hZ2VzL2kvMDAwLzA5Ny85NTkvb3JpZ2luYWwvc2h1dHRlcnN0b2NrXzYzOTcxNjY1LmpwZw=="></div>
+            <div class="tools-edit-image"><a href="javascript:void(0)" data-no="1" class="btn btn-light btn-edit-image">edit</a></div>
+        </div>
+        <div class="preview-image preview-show-2">
+            <div class="image-cancel" data-no="2">x</div>
+            <div class="image-zone"><img id="pro-img-2" src="https://www.codeproject.com/KB/GDI-plus/ImageProcessing2/flip.jpg"></div>
+            <div class="tools-edit-image"><a href="javascript:void(0)" data-no="2" class="btn btn-light btn-edit-image">edit</a></div>
+        </div>
+        <div class="preview-image preview-show-3">
+            <div class="image-cancel" data-no="3">x</div>
+            <div class="image-zone"><img id="pro-img-3" src="http://i.stack.imgur.com/WCveg.jpg"></div>
+            <div class="tools-edit-image"><a href="javascript:void(0)" data-no="3" class="btn btn-light btn-edit-image">edit</a></div>
+        </div>
+    </div>
+    
+    <!--Closing of the Row, Column and Container-->
+    </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer class="footer-container white-text-container">
+  <div class="container">
+    <div class="row">
+
+     
+      <div class="col-xs-12">
+        <h3>Photonet.</h3>
+
+        <div class="row">
+          <div class="col-xs-12 col-sm-7">
+            <p><small>&copy;2021 Photonet</small>
+            </p>
+          </div>
+          <div class="col-xs-12 col-sm-5">
+            <p class="text-right">
+              <a href="https://facebook.com/" class="social-round-icon white-round-icon fa-icon" title="">
+                <i class="fa fa-facebook" aria-hidden="true"></i>
+              </a>
+              <a href="https://twitter.com/" class="social-round-icon white-round-icon fa-icon" title="">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </a>
+              <a href="https://www.linkedin.com/" class="social-round-icon white-round-icon fa-icon" title="">
+                <i class="fa fa-linkedin" aria-hidden="true"></i>
+              </a>
+            </p>
+          </div>
+        </div>
+        
+        
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function (event) {
+    navActivePage();
+    scrollRevelation('.reveal');
+  });
+</script>
+
+<!-- Google Analytics code will be here if needed
+--> 
+
+  <script type="text/javascript" src="../main.0cf8b554.js"></script>
+
+  <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+  <script type="text/javascript" src="../file_upload.js"></script>
+  
+  </body>
+
+</html>
