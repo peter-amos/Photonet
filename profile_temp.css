@@ -1,0 +1,28 @@
+.header {
+    padding: 10px 0;
+    background: #f5f5f5;
+    border-top: 3px solid #6f00ff;
+  }
+  
+  
+  .row{
+    margin-top: 40px;
+  }
+  
+  
+  /*
+  .profile_header {
+    padding: 10px 0;
+    background: #anycolor;
+    border-top: 3px solid #anycolor;
+  }
+  */
+  .round_it{
+  	border-radius: 50%;
+  }
+  
+ .gallery_border{
+ 	border-style: groove;
+	 boder-color: grey;
+ 
+ }
